@@ -1,0 +1,63 @@
+<%- include('header') -%>
+
+<div class="feedback-div">
+
+  <form class="feedback-form" action="/" method="post">
+
+    <div class="feedback-div-top">
+
+      <label for="name">Your Name:</label>
+      <input type="text" class="input name" name="" value="">
+
+      <br>
+
+      <label for="email">Your Email:</label>
+      <input type="email" class="input email" name="" value="">
+
+      <br>
+
+      <label for="project-link">Project link:</label>
+      <input class="input project-link" placeholder="Enter your project's link" type="text" name="project-link" value="">
+
+      <br>
+
+      <label for="Attach-file">Attach File:</label>
+      <input type="file" class="input Attach file" name="" value="">
+
+      <br>
+
+      <label for="description">Descibe your project:</label>
+      <textarea class="textbox description input" name="name" rows="8" cols="80" placeholder="tell us what your project is about..."></textarea>
+
+    </div>
+    <div class="feedback-div-bottom">
+      <!-- checkboxes -->
+      <br>
+
+      <label for="design-checkbox">Design <input id="design"class="checkbox design-checkbox" type="checkbox" name="design" value="design"></label>
+      <textarea class=" hidden textbox design-textbox" placeholder="Anything Specific?" name="name" rows="2" cols="80"></textarea>
+
+      <br>
+
+      <label for="functionality-checkbox">Functionality  <input id="functionality" class=" checkbox functionality-checkbox" type="checkbox" name="functionality" value="functionality"></label>
+      <textarea placeholder="Anything Specific?" class=" hidden textbox functionality-textbox" name="name" rows="2" cols="80"></textarea>
+
+      <br>
+
+      <label for=" features-checkbox">Features <input id="features" class="  checkbox features-checkbox" type="checkbox" name="features" value="features"></label>
+      <textarea  placeholder="Anything Specific?" class=" hidden textbox features-textbox" name="name" rows="2" cols="80"></textarea>
+
+      <br>
+
+      <label for="other-checkbox">Other <input id="other" class="  checkbox other-checkbox" type="checkbox" name="other" value="other"></label>
+      <textarea placeholder="Tell us about it"  class= " hidden textbox other-textbox" name="name" rows="2" cols="80"></textarea>
+      
+      <br>
+    </div>
+    <button type="submit" name="button">Submit</button>
+  </form >
+</div>
+
+
+
+<%- include('footer') -%>
