@@ -1,5 +1,5 @@
 body {
-  background-color: #eeeeee;
+  background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   cursor: default;
 }
@@ -103,7 +103,9 @@ padding: 0;
 display: inline-block;
 width:100px;
 }
-
+.project-link{
+  width: 220px;
+}
 /* Home Page */
 .tagline-div {
   font-family: 'Kumbh Sans', sans-serif;
@@ -160,6 +162,7 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+  margin-bottom: 200px;
 }
 .contact-email, .contact-name , .contact-textarea{
   margin-top: 10px;
@@ -177,6 +180,48 @@ a:hover {
 }
 /* footer */
 .footer{
-  background-color: black;
-  color: #11d3bc;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #010a0c ;
+  color:aliceblue;
+  font-family: 'Poppins', sans-serif;
+height: 450px;
+text-align: center;
+}
+.footer-div{
+  padding-top: 20px;
+  padding-left: 30px ;
+ 
+}
+.join-div{
+margin-bottom: 30px;
+}
+.social-div{
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+
+.join-button{
+  font-weight: bolder;
+  border-radius: 20px;
+  font-family: 'Poppins', sans-serif; 
+  background-color: azure;
+  border-style: solid;
+  border-color: azure;
+  outline: none;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+.join-button:hover{
+  border-color: aqua;
+  background-color: aqua ;
+  
+}
+.social-icon{
+  margin-left: 10px;
+  height: 25px;
+  width: 25px;
+}
+.social-icon:hover{
+  color: aqua;
 }
