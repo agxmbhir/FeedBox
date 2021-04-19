@@ -16,6 +16,12 @@ app.get("/" , function(req , res){
 app.get("/feedback" , function(req , res){
   res.render("feedback")
 });
+app.get("/about" , function(req, res){
+  res.render("about")
+} );
+app.get("/contact", function(req, res){
+  res.render("contact")
+})
 app.post("/" , function(req , res){
   res.send("Thankyou for trusting us!! We will email you in a Day.")
 })
