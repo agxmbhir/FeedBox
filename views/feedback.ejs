@@ -1,4 +1,33 @@
-<%- include('header') -%>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FeedBox</title>
+   
+
+<!-- Css Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+<!-- Swup -->
+<script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script> 
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <!-- Navbar -->
+  <body>
+    <div class="navbar">
+        <h1 class="title">FeedBox</h1>
+      <div class="navbar-buttons">
+        <a id="about"class="navbar-button home"type="button" name="button" href="/">Home</a>
+        <a id="about"class="navbar-button about"type="button" name="button" href="/about">About</a>
+          <a id="contact"class="navbar-button contact"type="button" name="button" href="/contact">Contact </a>
+            <a id="join" class="navbar-button join"type="button" name="button">Join</a>
+
+      </div>
+      <main id="swup" class="transition-fade">
 
 <div class="feedback-div">
 
@@ -54,4 +83,37 @@
 
 
 
-<%- include('footer') -%>
+</main>
+
+<div class="footer">
+  <div class="footer-div">
+  <div class="join-div">
+  <p> Join a community of geeky web devs; Where really awesome people meet,interact,learn
+   and help each other.</p>
+  <a href=""></a><button class="join-button">Join Discord Server</button>
+  </div>
+  <hr class="footer-hr">
+  <div class="social-div">
+    <p>Find us on the internet</p>
+    <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+    <ion-icon class="social-icon" name="logo-github"></ion-icon>
+    <ion-icon class="social-icon" name="logo-paypal"></ion-icon>
+    <ion-icon class="social-icon" name="logo-reddit"></ion-icon>
+
+  </div>
+  <hr class="footer-hr">
+  <div class="contact-details">
+  <p>Contact us at</p>
+<p>abc@gmail.com</p>
+<p>47489374678</p>
+<p> Easy Streets, New York</p>
+  </div>
+
+  </div>
+     </main>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+
+  </body>
+</html>
